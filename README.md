@@ -33,7 +33,7 @@
         - You can put the rule name as "Jenkins"
    
 2. *Open the port in instance's "security groups":* Along with the above task we have to allow this port to the security group of the ec2 instance (Windows Server). To do so follow the following instruction:
-
+   <br>
         - Go to your AWS account
         - From the ec2 dashboard select Instances
         - From the list select the instance on which Jenkins is running
@@ -51,10 +51,12 @@
         - Select "Custom TCP"
         - Select port range "8080"
         - Select Source "Anywhere-IPV4", you can specify a particular ip or range here.
+
       <br>![plot](./image/cicd4.JPG)
           <br>
+
 3. Now, find out the public ip address of your windows server, use it and get your jenkins from anywhere:
 <br>![plot](./image/cicd5.JPG)
 <br>
-By putting "http://yourpublicip:8080" in the browser, we can get the login page of Jenkins running in Windows Server ec2 machine:
+4. By putting "http://yourpublicip:8080" in the browser, we can get the login page of Jenkins running in Windows Server ec2 machine:
 <br>![plot](./image/cicd10.JPG)
