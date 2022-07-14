@@ -20,15 +20,18 @@
      - Then select inbound rules
      - Select "New Rule" from action pane
      - Then select "Custom" rule and click on "Next"
-     <br>![plot](./image/cicd7.JPG)
-     <br>
+     
+      <br>![plot](./image/cicd7.JPG)
+       <br>
      - Do not forget to put java.exe file path in "This program path" and click on "Next"   
-     <br>![plot](./image/cicd8.JPG)
-     <br>
+      
+       <br>![plot](./image/cicd8.JPG)
+        <br>
      - Select Protocol type "TCP" from drop down menu
      - Type Local port as "8080" and click on "Next"
-     <br>![plot](./image/cicd9.JPG)
-     <br>
+     
+       <br>![plot](./image/cicd9.JPG)
+        <br>
      - Keep other options as default
      - You can put the rule name as "Jenkins"
    
@@ -43,7 +46,7 @@
    - From the "Description" tab select "security groups"
    - Click "Inbound rules"
    
-   - <br>![plot](./image/cicd2.JPG)
+     <br>![plot](./image/cicd2.JPG)
    <br>
    
    - Now select "Edit inbound rules"
