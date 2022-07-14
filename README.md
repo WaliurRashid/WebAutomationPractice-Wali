@@ -1,1 +1,1 @@
-# WebAtomationPractice-Wali
+# WebAutomationPractice-Wali
